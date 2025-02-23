@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design project</title>
+
+    <!-- TailwindCss -->
+    <script src="./tailwindcss/tailwindcss.js"></script>
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-white py-5">
+        <div class="container mx-auto flex justify-between">
+            <!-- Brand Logo -->
+            <img src="./images/Navbar-brand.svg" alt="brand-logo"/>
+
+            <div class="menu-list flex gap-x-5">
+                <!-- Menu List -->
+                <ul class="flex items-center gap-x-5 capitalize">
+                    <li class="relative">
+                        <a href="#" class="text-black hover:text-orange-500 font-semibold after:absolute after:content-[''] 
+                        after:duration-300 after:-bottom-1 after:left-1/2 after:w-0 after:h-1 after:bg-orange-500 
+                        after:rounded-sm after:-translate-x-1/2 after:hover:w-full">
+                            home
+                        </a>
+                    </li>
+                    <li class="relative">
+                        <a href="#" class="text-black hover:text-orange-500 font-semibold after:absolute after:content-[''] 
+                        after:duration-300 after:-bottom-1 after:left-1/2 after:w-0 after:h-1 after:bg-orange-500 
+                        after:rounded-sm after:-translate-x-1/2 after:hover:w-full">
+                            to rent
+                        </a>
+                    </li>
+                    <li class="relative">
+                        <a href="#" class="text-black hover:text-orange-500 font-semibold after:absolute after:content-[''] 
+                        after:duration-300 after:-bottom-1 after:left-1/2 after:w-0 after:h-1 after:bg-orange-500 
+                        after:rounded-sm after:-translate-x-1/2 after:hover:w-full">
+                            for sale
+                        </a>
+                    </li>
+                    <li class="relative">
+                        <a href="#" class="text-black hover:text-orange-500 font-semibold after:absolute after:content-[''] 
+                        after:duration-300 after:-bottom-1 after:left-1/2 after:w-0 after:h-1 after:bg-orange-500 
+                        after:rounded-sm after:-translate-x-1/2 after:hover:w-full">
+                            blog
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Nav Button -->
+                <button class="py-2 px-4 bg-orange-500 text-white rounded-md active:bg-orange-400">Log In</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner-section pt-12">
+        <div class="container mx-auto">
+            <!-- Contents -->
+            <div class="content flex justify-between">
+                <h1 class="max-w-2xl text-6xl">
+                    Ready to <br/> find your new home
+                </h1>
+                <h2 class="relative max-w-md before:absolute before:content-[''] before:-left-9 before:top-[10%] before:w-6 before:h-1
+                before:bg-orange-500 before:rounded-md mt-5">
+                    Looking for a house with a low price
+                    and quality here, and sell your house
+                    quickly here
+                </h2>
+            </div>
+
+            <!-- Banner -->
+            <div class="banner-img relative">
+                <!-- Banner Image -->
+                <img src="./images/banner-image.jpg" class="mx-auto" alt="banner-image"/>
+    
+                <!-- Form -->
+                <div class="form-box flex justify-between p-3 w-[55%] text-center bg-white absolute top-full right-4
+                -translate-y-1/2 shadow-lg">
+                    <div class="city">
+                        <h3 class="font-bold">Select City</h3>
+                        <p>Jakarta</p>
+                    </div>
+                    <div class="price">
+                        <h3 class="font-bold">Price</h3>
+                        <p>$1000 - $2000</p>
+                    </div>
+                    <div class="rooms">
+                        <h3 class="font-bold">Rooms</h3>
+                        <p>3 rooms</p>
+                    </div>
+                    <div class="footage">
+                        <h3 class="font-bold">Footage</h3>
+                        <p>2 footage</p>
+                    </div>
+    
+                    <button class="py-2 px-4 bg-orange-500 text-white rounded-md active:bg-orange-400">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-80">
+        <h1>next</h1>
+    </section>
+
+
+    <!-- JS Source -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
