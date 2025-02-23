@@ -66,7 +66,7 @@
                     Ready to <br/> find your new home
                 </h1>
                 <h2 class="relative max-w-md before:absolute before:content-[''] before:-left-9 before:top-[10%] before:w-6 before:h-1
-                before:bg-orange-500 before:rounded-md mt-5">
+                before:bg-orange-500 before:rounded-md mt-8 text-xl">
                     Looking for a house with a low price
                     and quality here, and sell your house
                     quickly here
@@ -81,13 +81,23 @@
                 <!-- Form -->
                 <div class="form-box flex justify-between p-3 w-[55%] text-center bg-white absolute top-full right-4
                 -translate-y-1/2 shadow-lg">
-                    <div class="city">
-                        <h3 class="font-bold">Select City</h3>
-                        <p>Jakarta</p>
+                    <div class="city flex items-center flex-col">
+                        <label for="city" class="font-bold">Select City</label>
+                        <select name="city" id="city" class="outline-0">
+                            <option value="Jarkarta" selected>Jakarta</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Sylhet">Sylhet</option>
+                            <option value="Chittagong">Chittagong</option>
+                        </select>
                     </div>
-                    <div class="price">
-                        <h3 class="font-bold">Price</h3>
-                        <p>$1000 - $2000</p>
+                    <div class="price flex flex-col items-center">
+                        <label for="price" class="font-bold">Price</label>
+                        <select name="price" id="price" class="outline-0">
+                            <option value="$1000 - $2000" selected>$1000 - $2000</option>
+                            <option value="$2000 - $3000">$2000 - $3000</option>
+                            <option value="$3000 - $4000">$3000 - $4000</option>
+                            <option value="$4000 - $5000">$4000 - $5000</option>
+                        </select>
                     </div>
                     <div class="rooms">
                         <h3 class="font-bold">Rooms</h3>
