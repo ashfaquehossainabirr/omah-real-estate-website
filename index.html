@@ -99,13 +99,25 @@
                             <option value="$4000 - $5000">$4000 - $5000</option>
                         </select>
                     </div>
-                    <div class="rooms">
-                        <h3 class="font-bold">Rooms</h3>
-                        <p>3 rooms</p>
+                    
+                    <div class="rooms flex flex-col items-center">
+                        <label for="rooms" class="font-bold">Rooms</label>
+                        <select name="rooms" id="rooms" class="outline-0">
+                            <option value="1 room">1 room</option>
+                            <option value="2 rooms">2 rooms</option>
+                            <option value="3 rooms" selected>3 rooms</option>
+                            <option value="4 rooms">4 rooms</option>
+                        </select>
                     </div>
-                    <div class="footage">
-                        <h3 class="font-bold">Footage</h3>
-                        <p>2 footage</p>
+                    
+                    <div class="footage flex flex-col items-center">
+                        <label for="footage" class="font-bold">Footage</label>
+                        <select name="footage" id="footage" class="outline-0">
+                            <option value="1 footage">1 footage</option>
+                            <option value="2 footage" selected>2 footage</option>
+                            <option value="3 footage">3 footage</option>
+                            <option value="4 footage">4 footage</option>
+                        </select>
                     </div>
     
                     <button class="py-2 px-4 bg-orange-500 text-white rounded-md active:bg-orange-400">Search</button>
